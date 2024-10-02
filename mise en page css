@@ -1,0 +1,26 @@
+h1 {
+/* color:gainsboro;
+background-color:darkred */
+text-align:center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width:100%;
+}
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#chapeau {
+    font-size:larger;
+}
+
+.rouge {
+color:darkred;
+}
+
+.vert {
+    color:darkolivegreen;
+}
