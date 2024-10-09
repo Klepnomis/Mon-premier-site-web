@@ -1,0 +1,58 @@
+header {
+    height:50vh; /*pourcentage de la fenetre percue */
+}
+
+nav {
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+    padding: 10px;  
+}
+
+nav a { /* tout élément a se trouvant à l'intérieur d'un élément nav */
+    color:darkgoldenrod;
+    text-decoration:none;
+}
+
+nav a:hover { /* hover signifie survoler */
+    color:black;
+    font-size:larger;
+}
+
+ul {
+    list-style-type: none; /*pour enlever les puces sur les élements de la liste */    
+    margin:0;
+    padding:0;
+    display:flex; /*répartition des éléments dans la liste */
+    text-decoration:none;
+    /*justify-content:space-evenly; pour répartition équitable */
+    gap:30px; /*gestion d'un espacement fixe entre les éléments*/
+}
+
+h1 {
+/* color:gainsboro;
+background-color:darkred */
+text-align:center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width:100%;
+}
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#chapeau {
+    font-size:larger;
+}
+
+.rouge {
+color:darkred;
+}
+
+.vert {
+    color:darkolivegreen;
+}
+
