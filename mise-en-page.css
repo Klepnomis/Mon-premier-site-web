@@ -108,22 +108,6 @@ nav a {
     letter-spacing:0.75px;
 }
 
-nav a:not(.actuel):hover {
-/* Traduction complète de ce sélecteur :
-- nav a : sélectionne tout élément a se trouvant dans un élément nav
-- :not(.actuel) : mais à condition que cet élément a ne porte pas la classe "actuel"
-- :hover : et à n'appliquer que lorsque cet élément a est survolé par la souris
-*/
-    color:#A26769;
-    font-weight:500;
-}
-
-nav a.actuel { /* Utilisation : on donne cette classe "actuel" à l'élément de notre menu correspondant à la page sur laquelle on se trouve, pour le différencier visuellement */
-    opacity:0.5;
-    font-weight:500;
-    font-size:25px;
-}
-
 section {
     padding-left:40px;
     padding-right:40px;
