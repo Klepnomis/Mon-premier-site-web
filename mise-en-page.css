@@ -59,23 +59,18 @@ body {
     font-weight:300;
     background-color:white;
     font-size:18px;
+}
     
 header {
     padding-left:10px;
     padding-right:10px;
     padding-top:10px;
-    padding-bottom:100px;
+    padding-bottom: 5px;
 
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
     align-items:center;
-
-    background-image:url(Chat-quémandeur.jpg);
-    background-size:cover;
-    background-position:center;
-
-    background-blend-mode:lighten;
 
     text-transform: uppercase;
 }
@@ -86,9 +81,9 @@ header nav {
 
 h1 {
   margin-top:0;
-  color:#05F2DB;
-  font-size:9vw;
-  font-weight:100;
+  color:black;
+  font-size:2vw;
+  font-weight:20;
   letter-spacing:2px;
 }
 
@@ -99,6 +94,7 @@ nav ul{
     display:flex;
     justify-content:end;
     gap:18px;
+    align-items: center;
 }
 
 nav a {
@@ -107,15 +103,35 @@ nav a {
     font-size:18px;
     text-decoration:none;
     letter-spacing:0.75px;
+    padding-top:100px;
+}
+
+img{
+    display: flex;
+    justify-content:cover;
+}
+
+section img {
+  padding-left: 0px;
+  padding-right:0px;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 
 section {
     padding-left:40px;
     padding-right:40px;
-    padding-top:100px;
+    padding-top:40px;
     padding-bottom:100px;
-    border-bottom:1px dotted #A26769;
 }
+
+.adoption {
+    padding-left:0px;
+    padding-right: 950px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
 
 .centrage { /* Utilisation : contraindre les contenus dans une colonne à l'intérieur des sections (en donnant cette classe à des éléments div intermédiaires) */
 
@@ -124,12 +140,51 @@ section {
     /* Centrage automatique horizontal, sans display:flex */
     margin-left:auto;
     margin-right:auto;
+}  
 
-  
+
+#col{
+  column-count:2;
+  margin-left:100px;
+}
+
+.horizontal {
+  height:300px;
+  width:400px;
+  margin-left:50px;
+}
+
+.logo {
+  height:130px;
+  width:292px;
+}
+
+.perdu{
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:10px;
+    padding-bottom: 5px;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+
+ 
+}
+.vertical {
+  height:400px;
+  width:300px;
+  margin-left:100px;
+}
+
+
+
+
+
 
 .ubuntu-light p {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
-
